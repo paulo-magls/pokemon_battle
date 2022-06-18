@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Batalha Pokémon</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<header>
+		<h1>Batalha Pokémon</h1>
+	</header>
+
+	<section>
+		<h2 id="rod">Sua Vez de Atacar</h2>
+
+		<div class="container justify-content">
+			<div id="poke1">
+				<img src="images/pikachu.png" width="100" height="100">
+				<p><span id="nome1">Pikachu</span><br><span id="vida1">180</span> HP</p>
+			</div>
+
+			<div id="poke2">
+				<img src="images/eevee.png" width="100" height="100">
+				<p><span id="nome2">Eevee</span><br><span id="vida2">220</span> HP</p>
+			</div>
+		</div>
+
+		<p id="acao">Aqui aparecerá a ação.</p>
+
+		<div class="container justify-content">
+			<p><b>Escolha um ataque: </b></p>
+			<input type="button" value="Ataque Rápido" id="atq1" onclick="atq1()">
+			<input type="button" value="Choque do Trovão" id="atq2" onclick="atq2()">
+		</div>
+
+		<div class="container justify-content">
+			<input type="button" value="Reiniciar" onclick="reiniciar()">
+			<input type="button" value="Seguir ->" onclick="seguir()">
+		</div>
+	</section>
+
+	<footer>Desenvolvido por paulo-magls</footer>
+	<script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
